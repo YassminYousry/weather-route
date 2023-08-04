@@ -56,18 +56,19 @@ nav{
   background-color: #1e202b;
 }
 .home-input{
-  position: absolute;
+  padding: 60px 20px;
   width: 100%;
   top: 70px;
 }
+.find-location{
+  position: relative;
+}
 .find{
   position: absolute;
-  top: 8px;
+  top: 5px;
+  right: 15px;
   width: 100px;
-  height: 85%;
-  right: 53px;
-  /* right: 15px; */
-  transform: translateY(-8%);
+  height: 80%;
 }
 
 /* cards */
