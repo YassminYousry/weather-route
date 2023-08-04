@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Weather</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg py-4">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand text-white d-flex justify-content-center align-items-center"
+            href="#"
+          >
+            <img src="./images/logo@2x.png" alt="logo" class="w-25 me-2" />
+            <div class="logo-text">
+              <h6 class="d-inline-block">Weather</h6>
+              <h6 class="small">tagline goes here</h6>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-1">
+                <a
+                  class="nav-link rounded-pill p-4 active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a
+                  class="nav-link rounded-pill p-4"
+                  aria-current="page"
+                  href="#"
+                  >News</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a
+                  class="nav-link rounded-pill p-4"
+                  aria-current="page"
+                  href="#"
+                  >Live Cameras</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a
+                  class="nav-link rounded-pill p-4"
+                  aria-current="page"
+                  href="#"
+                  >Photos</a
+                >
+              </li>
+              <li class="nav-item mx-1">
+                <a
+                  class="nav-link rounded-pill p-4"
+                  aria-current="page"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section id="home">
+      <div class="home-bg">
+        <div class="home-img h-50">
+          <div class="home-input">
+            <div class="container">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                class="form-control m-auto rounded-pill py-3 px-4 border-0"
+                placeholder="Find Your Location ..."
+              />
+              <input
+                type="button"
+                value="Find"
+                class="btn btn-primary rounded-5 find"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="home-card">
+            <div class="container">
+                <div class="row">
+                    <div class="col-11 m-auto col-md-4 g-0">
+                      <div class="item">
+                        <div class="card-day d-flex justify-content-between p-2">
+                            <span>Friday</span>
+                            <span>4 August</span>
+                        </div>
+                        <div class="card-info p-4">
+                            <h5>Cairo</h5>
+                            <div class="temp d-flex justify-content-between align-items-center">
+                              <h2 class="deg">28&deg;C</h2>
+                              <img src="./icons/night/113.png" alt="temp-icon" class="w-25">
+                            </div>
+                            <span class="my-3 d-block text-info">Clear</span>
+                            <div class="deg-info d-flex">
+                              <div class="d-flex me-4">
+                                <img src="./images/icon-umberella.png" alt="umbrella" class="me-2">
+                                <span>20%</span>
+                              </div>
+                              <div class="d-flex me-4">
+                                <img src="./images/icon-wind.png" alt="umbrella" class="me-2">
+                                <span>18km/h</span>
+                              </div>
+                              <div class="d-flex me-4 ">
+                                <img src="./images/icon-compass.png" alt="umbrella" class="me-2">
+                                <span>East</span>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    <div class="col-11 m-auto col-md-4 g-0">
+                      <div class="item">
+                        <div class="card-day-two d-flex justify-content-center p-2">
+                            <span>Friday</span>
+                        </div>
+                        <div class="card-info-two p-4">
+                            <div class="day-two-img my-4">
+                              <img src="./icons/day/113.png" alt="sunny">
+                            </div>
+                            <div class="temp text-center">
+                              <h2 class="day-two-deg fw-bolder">41.7&deg;C</h2>
+                              <h6 class="small mb-4">26.3&deg;</h6>
+                              <span class="mt-3 mb-5 d-block text-info">Clear</span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    <div class="col-11 m-auto col-md-4 g-0">
+                      <div class="item">
+                        <div class="card-day-three d-flex justify-content-center p-2">
+                            <span>Friday</span>
+                        </div>
+                        <div class="card-info-three p-4">
+                            <div class="day-three-img my-4">
+                              <img src="./icons/day/113.png" alt="sunny">
+                            </div>
+                            <div class="temp text-center">
+                              <h2 class="day-three-deg fw-bolder">41.7&deg;C</h2>
+                              <h6 class="small mb-4">26.3&deg;</h6>
+                              <span class="mt-3 mb-5 d-block text-info">Clear</span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
