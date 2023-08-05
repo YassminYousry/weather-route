@@ -4,6 +4,7 @@ body{
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   color: white;
+  /* background-color: #1e202b; */
 }
 
 img{
@@ -34,14 +35,18 @@ nav{
   font-size: 10px;
 }
 /* home */
-.home-bg{
-  position: relative;
+.home{
+  display: flex;
+  flex-direction: column;
   background-color: #1e202b;
-  height: 110vh;
+  min-height: 110vh;
 }
 .home-img{
   position: relative;
+  height: 50vh;
   background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .form-control{
   background-color: #1e202b;
@@ -66,16 +71,14 @@ nav{
 .find{
   position: absolute;
   top: 4px;
-  right: 16px;
+  right: 5px;
   width: 110px;
   height: 84%;
 }
 
 /* cards */
 .home-card{
-  position: absolute;
-  width: 100%;
-  top: 200px;
+  transform: translateY(-100px);
 }
 .deg{
   font-size: 90px;
@@ -104,8 +107,11 @@ nav{
 .item .card-day-two{
   background-color: #222530;
 }
-
 .day-two-img, .day-three-img{
   width: 47px;
   margin: auto;
+}
+
+#footer{
+  background-color: #262936;
 }
